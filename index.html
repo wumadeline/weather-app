@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type='text/css' href='./style.css'>
+    <title>Weather</title>
+</head>
+<body>
+    <div class="location">
+        <form class="location-form">
+            <input type="text" id="locationInput" name="location" autocomplete="off" required=/>
+            <label for="location" class="location-label">
+                <span class="location-content">Search city, zip...</span>
+            </label>
+        </form>
+    </div>
+    <div class="weather">
+        <div class="temperature-section">
+            <h2 class="temperature-degree"></h2>
+            <span class="temperature-unit"></span>
+        </div>
+        <div class="weather-details">
+            <img class="weather-icon" width="64" height="64" />
+            <div class="weather-description"></div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
