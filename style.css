@@ -16,7 +16,6 @@ body {
     color: white;
 }
 
-
 /* Location Information */
 .location {
     height: 25vh;
@@ -136,4 +135,8 @@ form input:valid + .location-label {
 .weather-description {
     margin: 10px;
     font-size: 18px;
+}
+
+.weather-icon {
+    display: none;
 }
